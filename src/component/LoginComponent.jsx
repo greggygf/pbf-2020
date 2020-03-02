@@ -25,8 +25,7 @@ const FormPassword = () => {
     )
 }
 
-const RememberMe = () =>
-{
+const RememberMe = () => {
     return (
         <div class="form-check my-4 mr-sm-2">
             <input type="checkbox" class="form-check-input"></input>
@@ -35,8 +34,7 @@ const RememberMe = () =>
     )
 }
 
-const BtnLogin = () =>
-{
+const BtnLogin = () => {
     return <button type="submit" class="btn btn-success btn-block my-1 font-weight-bold">Login</button>;
 }
 
