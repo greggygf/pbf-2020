@@ -1,0 +1,14 @@
+{
+  "posts": [
+    {
+      "userId": 1,
+      "id": 1,
+      "title": "Pelaksanaan Rapat Hasil Akhir Yudisium Semester Ganjil 2019/2020",
+      "body": "Jum'at (17/1/2020) kemarin, Jurusan Teknologi Informasi Politeknik Negeri Malang......."
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
