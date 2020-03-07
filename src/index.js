@@ -10,7 +10,8 @@ import * as serviceWorker from './serviceWorker';
 // import LoginComponent from './component/LoginComponent';
 // import StatefullComponent from './container/StatefullComponent';
 
-import BlogPost from './container/BlogPost/BlogPost';
+// import BlogPost from './container/BlogPost/BlogPost';
+import Mahasiswa from './container/Mahasiswa/Mahasiswa';
 
 // function HelloWord()
 // {
@@ -29,7 +30,7 @@ import BlogPost from './container/BlogPost/BlogPost';
 //     }
 // }
 
-ReactDOM.render( < BlogPost / > , document.getElementById('content'));
+ReactDOM.render( < Mahasiswa / > , document.getElementById('content'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
