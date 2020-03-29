@@ -197,6 +197,7 @@ export default function Home() {
   )
 }
 
+
 const fakeAuth = {
   isAuthenticated: false,
   authenticate(cb) {
@@ -340,8 +341,6 @@ function AlertLoginPage() {
 // }
 
 function KategoriBuku() {
-  // `path` untuk membuat jalur <Route> yang terhadap rute induk, sedangkan `url` untuk membuat link
-
   let { path, url } = useRouteMatch();
   return (
     <div>
