@@ -166,7 +166,7 @@ export default function Home() {
             <ul class="navbar-nav mr-auto">
               <li class="nav-item active">
                 <Link to="/public">
-                  <a class="nav-link">
+                  <a className="nav-link">
                     Home
                 </a>
                 </Link>

@@ -1,0 +1,16 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nama": "Kulkas Merk ...",
+      "harga": 10000,
+      "qty": 1
+    },
+    {
+      "id": 2,
+      "nama": "Kulkas Merk ....",
+      "harga": 10000,
+      "qty": 2
+    }
+  ]
+}

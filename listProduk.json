@@ -1,0 +1,82 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "nama": "Lemari Es Mumet",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 2,
+      "nama": "Lemari Mumet",
+      "harga": 10000,
+      "gambar": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTDvxvdlCJBx1SbA1hj-_wgCcAKdIMkS5qFjoi3HXHza4mT0Iyw&usqp=CAU",
+      "stok": 50
+    },
+    {
+      "id": 3,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 3,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 4,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 5,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 6,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 7,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 8,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    }
+    ,
+    {
+      "id": 9,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    },
+    {
+      "id": 10,
+      "nama": "Mumet Kabeh",
+      "harga": 10000,
+      "gambar": "https://www.pulsk.com/images/2014/05/22/537d3d961bd38_537d3d961cde2.jpg",
+      "stok": 50
+    }
+  ]
+}
