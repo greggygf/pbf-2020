@@ -6,22 +6,24 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 
 // Redux
-// import { Provider } from 'react-redux'
-// import { createStore, compose } from 'redux'
-// import MainReducer from './reducers/MainReducer'
+import { Provider } from 'react-redux'
+import { createStore, compose } from 'redux'
+import MainReducer from './Redux/Reducers/MainReducer'
 
 // Main App
-// import App from './App';
+import App from './Redux/Containers/Table';
+// import registerServiceWorker from './registerServiceWorker';
 
 // UTS
-import UTS from './UTS/index';
+// import UTS from './UTS/index';
 import * as serviceWorker from './serviceWorker';
 
-// const store = compose(window.devToolsExtension ? window.devToolsExtension() : f =>
-// f)(createStore)(MainReducer)
-// ReactDOM.render(<Provider store={store}><App /></Provider>, document.getElementById('root'));
-
-ReactDOM.render(< UTS />, document.getElementById('content'));
+const store = compose(window.devToolsExtension ? window.devToolsExtension() : f =>
+f)(createStore)(MainReducer)
+ReactDOM.render(<Provider store={store}>
+<App />
+</Provider>
+, document.getElementById('content'));
 
 serviceWorker.unregister();
 
