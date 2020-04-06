@@ -14,7 +14,7 @@ import './index.css';
 // import App from './App';
 
 // UTS
-import UTS from './UTS/UTS';
+import UTS from './UTS/index';
 import * as serviceWorker from './serviceWorker';
 
 // const store = compose(window.devToolsExtension ? window.devToolsExtension() : f =>
@@ -32,23 +32,6 @@ serviceWorker.unregister();
 
 // import BlogPost from './container/BlogPost/BlogPost';
 // import Mahasiswa from './container/Mahasiswa/Mahasiswa';
-
-// function HelloWord()
-// {
-//     return <p> ini adalah function component</p>
-// }
-
-// const HelloWord = () =>
-// {
-//     return <p> ini adalah arrow function </p>
-// }
-
-// class StatefullComponent extends React.Component
-// {
-//     render(){
-//         return <p> ini adalah Statefull Component</p>
-//     }
-// }
 
 // // If you want your app to work offline and load faster, you can change
 // // unregister() to register() below. Note this comes with some pitfalls.
