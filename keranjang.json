@@ -1,16 +1,37 @@
 {
-  "posts": [
+  "keranjang": [
     {
       "id": 1,
       "nama": "Kulkas Merk ...",
       "harga": 10000,
-      "qty": 1
+      "qty": 2
     },
     {
       "id": 2,
+      "idproduk": 1,
       "nama": "Kulkas Merk ....",
       "harga": 10000,
       "qty": 2
+    },
+    {
+      "idProduk": 1,
+      "nama": "",
+      "id": 3
+    },
+    {
+      "idProduk": 1,
+      "nama": "",
+      "id": 4
+    },
+    {
+      "idProduk": 1587046304541,
+      "nama": "ayam",
+      "id": 5
+    },
+    {
+      "idProduk": 1,
+      "nama": "",
+      "id": 6
     }
   ]
 }
