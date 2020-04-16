@@ -1,15 +1,10 @@
 import React from 'react';
 import { Component } from 'react';
 
-<<<<<<< HEAD
 import '../css/Style.css';
 
 
 var total, subtotal;
-=======
-var total = 0;
-var subtotal = 0;
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
 
 class Keranjang extends Component {
     state = {
@@ -21,11 +16,7 @@ class Keranjang extends Component {
     }
 
     ambilDataKeranjang = () => {
-<<<<<<< HEAD
         fetch('http://localhost:3002/keranjang')
-=======
-        fetch('http://localhost:3002/posts')
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
             .then(response => response.json())
             .then(jsonHasilAmbilDariAPI => {
                 this.setState({
@@ -35,11 +26,8 @@ class Keranjang extends Component {
     }
 
     listKeranjang() {
-<<<<<<< HEAD
         total = 0
         subtotal = 0
-=======
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
         return (
             this.state.keranjang.map(keranjang => {
                 subtotal = keranjang.harga * keranjang.qty

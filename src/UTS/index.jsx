@@ -19,7 +19,6 @@ class UTS extends Component {
 
     Navbar() {
         return (
-<<<<<<< HEAD
             <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
                 <Link to="/">
                     <a className="navbar-brand" href="/">Toko Rice Cooker - Mas Greggy</a>
@@ -37,25 +36,6 @@ class UTS extends Component {
                         </Link>
                         <Link to="/about">
                             <a className="nav-item nav-link" href="/about">About</a>
-=======
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <Link to="/">
-                    <a class="navbar-brand" href="/">Toko Kulkas</a>
-                </Link>
-                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                    <div class="navbar-nav">
-                        <Link to="/">
-                            <a class="nav-item nav-link" href="/">Home</a>
-                        </Link>
-                        <Link to="/produk">
-                            <a class="nav-item nav-link" href="/produk">List Produk</a>
-                        </Link>
-                        <Link to="/keranjang">
-                            <a class="nav-item nav-link" href="/keranjang">Keranjang</a>
-                        </Link>
-                        <Link to="/about">
-                            <a class="nav-item nav-link" href="/about">About</a>
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
                         </Link>
                     </div>
                 </div>
@@ -66,7 +46,6 @@ class UTS extends Component {
     render() {
         return (
             <Router>
-<<<<<<< HEAD
                 <div className="col-12">
                     {this.Navbar()}
                     <Switch>
@@ -83,28 +62,6 @@ class UTS extends Component {
                             <Keranjang />
                         </Route>
                     </Switch>
-=======
-                <div className="container-fluid">
-                    <div class="row">
-                        <div class="col-12">
-                            {this.Navbar()}
-                            <Switch>
-                                <Route exact path="/">
-                                    <Home />
-                                </Route>
-                                <Route exact path="/about">
-                                    <About />
-                                </Route>
-                                <Route exact path="/produk">
-                                    <Produk />
-                                </Route>
-                                <Route exact path="/keranjang">
-                                    <Keranjang />
-                                </Route>
-                            </Switch>
-                        </div>
-                    </div>
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
                 </div>
             </Router>
         )

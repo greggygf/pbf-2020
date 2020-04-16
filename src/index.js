@@ -1,36 +1,30 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from "react";
+import ReactDOM from "react-dom";
 
 // Mengimport Bootstrap
-import 'bootstrap/dist/css/bootstrap.min.css';
-import './index.css';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "./index.css";
 
 // Redux
-import { Provider } from 'react-redux'
-import { createStore, compose } from 'redux'
-import MainReducer from './Redux/Reducers/MainReducer'
+// import { createStore, compose } from "redux";
+// import MainReducer from "./Redux/Reducers/MainReducer";
 
 // Main App
-import App from './Redux/Containers/Table';
+// import App from "./Redux/Containers/Table";
 // import registerServiceWorker from './registerServiceWorker';
 
 // UTS
-<<<<<<< HEAD
-import UTS from './UTS/index';
-=======
-// import UTS from './UTS/index';
->>>>>>> f5bb38bfbd776760971b1acd66704f2fe8ea5928
-import * as serviceWorker from './serviceWorker';
+import UTS from "./UTS/index";
+import * as serviceWorker from "./serviceWorker";
 
-const store = compose(window.devToolsExtension ? window.devToolsExtension() : f =>
-f)(createStore)(MainReducer)
-ReactDOM.render(<Provider store={store}>
-<App />
-</Provider>
-, document.getElementById('content'));
+ReactDOM.render(
+    <React.StrictMode>
+        <UTS />
+    </React.StrictMode>,
+    document.getElementById("content")
+);
 
 serviceWorker.unregister();
-
 
 // import HelloComponent from './component/HelloComponent';
 // import LoginComponent from './component/LoginComponent';
@@ -43,36 +37,6 @@ serviceWorker.unregister();
 // // unregister() to register() below. Note this comes with some pitfalls.
 // // Learn more about service workers: https://bit.ly/CRA-PWA
 // serviceWorker.unregister();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import LoginComponent from './component/LoginComponent';
 
