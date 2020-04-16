@@ -20,14 +20,9 @@ class CreateTodo extends Component {
         return (
             <div className="form-group row">
                 <div className="col-sm-10">
-                    <input onChange={this.onChangeTodoText} value={this.state.todotext}
-                        type="text" className="form-control" id="inputEmail3" placeholder="add todo here" />
-                    <button type="button" onClick={() => this.setState({ todotext: '' })}
-                        style={{ marginTop: "25px", marginRight: "15px" }} className="btn btndanger">Cancel</button>
-                    <button type="button" onClick={() => {
-                        this.props.addTodo(this.state.todotext); this.setState({ todotext: '' })
-                    }}
-                        style={{ marginTop: "25px" }} className="btn btn-success">Add Todo</button>
+                    <input onChange={this.onChangeTodoText} value={this.state.todotext} type="text" className="form-control" id="inputEmail3" placeholder="add todo here" />
+                    <button type="button" onClick={() => this.setState({ todotext: '' })} style={{ marginTop: "25px", marginRight: "15px" }} className="btn btndanger">Cancel</button>
+                    <button type="button" onClick={() => { this.props.addTodo(this.state.todotext); this.setState({ todotext: '' }) }} style={{ marginTop: "25px" }} className="btn btn-success">Add Todo</button>
                 </div>
             </div>
         );

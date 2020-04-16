@@ -7,7 +7,6 @@ import {
 } from "../actions/actionCreator";
 import { SHOW_ALL, SHOW_COMPLETED, SHOW_ACTIVE } from "../actions/actionsTypes";
 import { bindActionCreators } from "redux";
-
 class Table extends Component {
     render() {
         return (
@@ -19,25 +18,29 @@ class Table extends Component {
                                 'active' : '')}
                             onClick={() => this.props.setVisibilityFilter(SHOW_ALL)}
                         >
-                            All</li>
+                            All
+ </li>
                         <li
                             className={"breadcrumb-item " + (this.props.visibilityFilter ===
                                 SHOW_COMPLETED ? 'active' : '')}
                             onClick={() => this.props.setVisibilityFilter(SHOW_COMPLETED)}
                         >
-                            Completed</li>
+                            Completed
+ </li>
                         <li
                             className={"breadcrumb-item " + (this.props.visibilityFilter === SHOW_ACTIVE ?
                                 'active' : '')}
                             onClick={() => this.props.setVisibilityFilter(SHOW_ACTIVE)}
                         >
-                            Active</li>
+                            Active
+ </li>
                     </ol>
                 </nav>
                 {this.props.todos.length !== 0 ? (
                     <table
                         style={{ marginTop: "60px" }}
-                        className="table table-hover table-dark">
+                        className="table table-hover table-dark"
+                    >
                         <thead>
                             <tr>
                                 <th scope="col">Todos</th>
@@ -62,7 +65,8 @@ class Table extends Component {
                                                 color: "white",
                                                 fontSize: "20pt",
                                                 marginRight: "20px"
-                                            }}/>
+                                            }}
+                                        />
                                         <span
                                             className="fas fa-check-circle"
                                             onClick={() => this.props.toggleTodo(todo.id)}
@@ -79,7 +83,8 @@ class Table extends Component {
                             className="col-lg-10 col-md-10 col-xs-12 col-sm-12 offset-lg-1"
                         >
                             <div className="alert alert-danger" role="alert">
-                                Todo List is empty or Filter results show no results</div>
+                                Todo List is empty or Filter results show no results
+ </div>
                         </div>
                     )}{" "}
             </div>
