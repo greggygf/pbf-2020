@@ -12,11 +12,14 @@ import "./index.css";
 
 // 8 - Global API
 // import GlobalAPI from "./8-GlobalAPI/Praktikum/BlogPost/BlogPost";
-import MahasiswaGlobalAPI from "./8-GlobalAPI/Tugas/containers/Mahasiswa";
+// import MahasiswaGlobalAPI from "./8-GlobalAPI/Tugas/containers/Mahasiswa";
+
+// 9 - Firebase
+import FirebaseReactJS from "./9-FirebaseReactJS/index";
 
 ReactDOM.render(
   <React.StrictMode>
-    <MahasiswaGlobalAPI />
+    <FirebaseReactJS />
   </React.StrictMode>,
   document.getElementById("content")
 );
