@@ -2,21 +2,15 @@
   "posts": [
     {
       "userId": 1,
-      "id": 1,
-      "title": "Pelaksanaan Rapat Hasil Akhir Yudisium Semester Ganjil 2019/2020",
-      "body": "Jum'at (17/1/2020) kemarin, Jurusan Teknologi Informasi Politeknik Negeri Malang......."
-    },
-    {
-      "userId": 1,
       "id": 1583130348332,
       "title": "Pelaksanaan Ujian Sertifikasi Untuk Dosen Polinema",
       "body": "Pada hari.......... beberapa dosen dari Polinema melaksanakan sertifikasi ujian..........."
     },
     {
       "userId": 1,
-      "id": 1583588254918,
-      "title": "Ayam Goreng",
-      "body": "hehe"
+      "id": 1587221324464,
+      "title": "Perkuliahan Terkait COVID-19",
+      "body": "Karena situasi seperti ini, maka perkuliahan diganti dengan kuliah online....................."
     }
   ],
   "comments": [],
