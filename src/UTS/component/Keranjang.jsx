@@ -45,7 +45,7 @@ class Keranjang extends Component {
                 )
             })
         )
-        
+
     }
 
     render() {

@@ -18,10 +18,10 @@ import UTS from "./UTS/index";
 import * as serviceWorker from "./serviceWorker";
 
 ReactDOM.render(
-    <React.StrictMode>
-        <UTS />
-    </React.StrictMode>,
-    document.getElementById("content")
+  <React.StrictMode>
+    <UTS />
+  </React.StrictMode>,
+  document.getElementById("content")
 );
 
 serviceWorker.unregister();
