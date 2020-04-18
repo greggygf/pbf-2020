@@ -4,7 +4,7 @@ import { Component } from 'react';
 import '../css/Style.css';
 
 
-var total, subtotal;
+var total, subtotal, no;
 
 class Keranjang extends Component {
     state = {
@@ -28,13 +28,15 @@ class Keranjang extends Component {
     listKeranjang() {
         total = 0
         subtotal = 0
+        no = 0
         return (
             this.state.keranjang.map(keranjang => {
                 subtotal = keranjang.harga * keranjang.qty
                 total = total + (keranjang.harga * keranjang.qty)
+                no += 1
                 return (
-                    <tr>
-                        <th scope="row">{keranjang.id}</th>
+                    <tr key={keranjang.id}>
+                        <th scope="row">{no}</th>
                         <td>{keranjang.nama}</td>
                         <td>Rp.{keranjang.harga},-</td>
                         <td>{keranjang.qty}</td>
@@ -43,14 +45,15 @@ class Keranjang extends Component {
                 )
             })
         )
+        
     }
 
     render() {
         return (
-            <div class="col-lg-12">
-                <div class="container-fluid">
-                    <div class="row">
-                        <table class="table mt-3 table-striped">
+            <div className="col-lg-12">
+                <div className="container-fluid">
+                    <div className="row">
+                        <table className="table mt-3 table-striped">
                             <thead>
                                 <tr>
                                     <th scope="col">No</th>

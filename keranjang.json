@@ -1,37 +1,39 @@
 {
   "keranjang": [
     {
-      "id": 1,
-      "nama": "Kulkas Merk ...",
-      "harga": 10000,
+      "id": 3,
+      "nama": "COSMOS Rice Cooker CRJ-1001",
+      "harga": 235000,
+      "stok": 50,
       "qty": 2
+    },
+    {
+      "id": 1,
+      "nama": "NIKO Rice Cooker NK18N",
+      "harga": 200000,
+      "stok": 50,
+      "qty": 2
+    },
+    {
+      "id": 5,
+      "nama": "MIYAKO Rice Cooker PSG-607",
+      "harga": 160000,
+      "stok": 50,
+      "qty": 1
+    },
+    {
+      "id": 8,
+      "nama": "PANASONIC Rice Cooker SR-CEZ18SPR",
+      "harga": 640000,
+      "stok": 50,
+      "qty": 1
     },
     {
       "id": 2,
-      "idproduk": 1,
-      "nama": "Kulkas Merk ....",
-      "harga": 10000,
-      "qty": 2
-    },
-    {
-      "idProduk": 1,
-      "nama": "",
-      "id": 3
-    },
-    {
-      "idProduk": 1,
-      "nama": "",
-      "id": 4
-    },
-    {
-      "idProduk": 1587046304541,
-      "nama": "ayam",
-      "id": 5
-    },
-    {
-      "idProduk": 1,
-      "nama": "",
-      "id": 6
+      "nama": "SANKEN Rice Cooker SJ-3010",
+      "harga": 580000,
+      "stok": 50,
+      "qty": 3
     }
   ]
 }
